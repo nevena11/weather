@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  	<script src="http://maps.googleapis.com/maps/api/js?=key=AIzaSyDhrpQNFW66dXtkWn2xVc8-YnTJb78wZns&libraries=places" type="text/javascript"></script>
+	<script src="weather.js"></script>
+	<link rel="stylesheet" type="text/css" href="weather.css">
+</head>
+<body>
+	<div id="left">
+		<div id="unos">
+			<input type="text" id="search1" name="search">
+		</div>
+		<div id="dugme">
+			<button id="search2" onclick="setWeather()">Search</button>
+		</div>
+		<div>
+			<button id="search3" onclick="convert()">Convert</button>
+		</div>
+	</div>
+	<div id="right"></div>
+</body>
+</html>

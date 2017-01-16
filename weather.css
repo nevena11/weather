@@ -1,0 +1,46 @@
+.body{
+	width: 100%;
+	height: 100%;
+}
+
+#left{
+	float: left;
+	width:20%; 
+	
+}
+#right{
+	float:left;
+	width: 80%;
+}
+#tabela{
+	border: 1px solid gray;
+	width: 80%;
+}
+td,tr{
+	width: 15px;
+	border:1px solid gray;
+	text-align:center;
+}
+
+#search1{
+		width: 200px;
+		margin-top: 20px;
+		padding: 5px;
+}
+
+#search2{
+	float: left;
+	position: absolute;
+	margin-top:20px;
+	padding: 5px;
+}
+#search3{
+	float: left;
+	position: absolute;
+	margin-top:60px;
+	padding: 5px;
+}
+
+.lista{
+	float: left;
+}
